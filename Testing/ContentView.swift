@@ -183,7 +183,7 @@ struct ContentView: View {
                 Button {
                     answerText = calc.makePercent()
                 } label: {
-                    Image(systemName: "xmark").foregroundColor(Color.gray).font(.system(size: CGFloat(75)))
+                    Image(systemName: "percent").foregroundColor(Color.gray).font(.system(size: CGFloat(75)))
                 }
                 Spacer()
                 Button {
