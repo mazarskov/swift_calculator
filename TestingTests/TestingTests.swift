@@ -21,19 +21,19 @@ final class TestingTests: XCTestCase {
     
     }
     func testAddition() throws {
-        var calc = Calculator()
+        let calc = Calculator()
         calc.calcBuffer(2)
         calc.addition()
         calc.calcBuffer(2)
-        var result = calc.equal()
+        let result = calc.equal()
         XCTAssert(result == 4, "The number should be 4. But was: \(result)")
     }
     func testSubtraction() throws {
-        var calc = Calculator()
+        let calc = Calculator()
         calc.calcBuffer(5)
         calc.subtraction()
         calc.calcBuffer(3)
-        var result = calc.equal()
+        let result = calc.equal()
         XCTAssert(result == 2, "The number should be 2. But was: \(result)")
     }
     
